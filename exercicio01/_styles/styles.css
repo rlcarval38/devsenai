@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Hello';
+    src: url('../_fonts/BLACKJAR.TTF');
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    /*Paletas de Cores*/
+    --Cor01:#F2F2F2;
+    --Cor02:#A6A6A6;
+    --Cor03:#737373;
+    --Cor04:#404040;
+    --Cor05:#0D0D0D;
+    --Cor06:#fc0707;
+
+    /*Fontes Padrão*/
+    --FonteParagrafo:'Roboto', cursive;
+    --FonteTitulo:'Passion One', arial;
+    --FontNova: Hello;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Cor04);
+    
+}
+main{
+    background-color: var(--Cor01);
+    width: 60%;
+    height: 80%;
+    margin-top: 10px;
+    margin-bottom:10px ;
+    
+    
+}
+div{
+    margin: 20px;
+}
+h1{
+    font-family:var(--FontNova) ;
+    font-size: 3.8em;
+    color:var(--Cor0);
+    text-align: center;
+    padding: 30px;
+    
+}
+h2{
+    background-image: linear-gradient(to right ,var(--Cor03) ,var(--Cor04));
+    width: 100%;
+    text-align: center;
+    font-family: var(--FonteParagrafo);
+    color: var(--Cor06);
+    margin-bottom: 30px;
+    border-radius: 4px;
+    padding: 5px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+
+    z-index: 1;
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+img:hover{
+    z-index: 2;
+    transform: scale(2.2);
+
+}
+p{
+    font-family:var(--FonteTitulo);
+    font-size: 1.2em;
+    text-align: justify;
+    padding: 10px;
+}
+ul{
+    margin: 50px;
+}
+ul>li{
+    padding: 15px;
+}
