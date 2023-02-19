@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family: "OldNews";
-    src: url("../_font/OldNewspaperTypes.ttf") format(truetype);
+    src: url("../font/OldNewspaperTypes.ttf") format(truetype);
 }
 *{
     margin: 0px;
