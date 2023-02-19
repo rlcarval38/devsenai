@@ -1,7 +1,6 @@
 @media screen and (max-width: 767px){
 body{
   width: 100vw;
-  height: 100vh;
 }
 nav h1{
     font-size: 2rem;
@@ -32,7 +31,7 @@ main{
 
 }
 .section_tabela h2{
-  font-size: 1.3rem;
+  font-size: 1rem;
 }
 
 table,th,tr,td{
