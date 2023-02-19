@@ -9,7 +9,6 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 body{
-    height: 100vh;
     background: linear-gradient(to bottom, #F5CD59, #531918 );
     background-repeat: no-repeat;
     background-size: cover; 
@@ -62,8 +61,7 @@ nav ul a img{
 }
 main{
     margin: auto;
-    margin-top: 20px;
-    width: 85vw;
+    margin-top: 10px;
     border-radius: 10px;
     padding: 20px;
     text-align: center;
