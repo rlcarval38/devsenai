@@ -5,16 +5,19 @@ body{
 nav h1{
     font-size: 2rem;
     padding: 5px;
+    margin-bottom: 30px;
 }
 nav ul{
   display: none;
   font-size: .5rem;
   padding: 0;
+  
 
 
 }
 nav ul a{
   font-size: 1rem;
+  
 }
 nav ul a img{
   width: 5px;
@@ -22,9 +25,12 @@ nav ul a img{
 .section_conteudo .section_image img{
   width: 80px;
   height: 60px;
+  
 }
+
 main{
   width: 80vw;
+  height: 100vh;
   font-size: .6rem;
 
 }
