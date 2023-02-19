@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px){
+body{
+  width: 100vw;
+  height: 100vh;
+}
+nav h1{
+    font-size: 2rem;
+    padding: 5px;
+}
+nav ul{
+  font-size: .5rem;
+
+}
+nav ul a{
+  font-size: 1.3rem;
+}
+nav ul a img{
+  width: 5px;
+}
+.section_conteudo .section_image img{
+  width: 80px;
+  height: 60px;
+}
+main{
+  width: 80vw;
+  font-size: .6rem;
+
+}
+.section_text p{
+  font-size: 1.2rem;
+
+}
+.section_tabela h2{
+  font-size: 1.3rem;
+}
+
+table,th,tr,td{
+  font-size: .5rem;
+}
+td,th{
+  width: 100px;
+  height: 10px;
+
+}
+}
+    
+  

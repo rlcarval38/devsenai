@@ -1,0 +1,105 @@
+@charset "UTF-8";
+@font-face{
+    font-family: "OldNews";
+    src: url("../_font/OldNewspaperTypes.ttf") format(truetype);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to bottom, #F5CD59, #531918 );
+    background-repeat: no-repeat;
+    background-size: cover; 
+     
+}
+nav{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav h1{
+    font-family: "OldNews";
+    font-size: 2rem;
+    color:#A43518;
+    text-align: center;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none; 
+    font-size: 1.1rem;
+
+}
+nav ul a{
+    padding: 12px;
+    box-sizing: border-box;
+    text-align: center; 
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:#A43518;
+}
+nav ul a img{
+    width: 15px;
+}
+.section_conteudo .section_image{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.section_conteudo .section_image img{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow:0px 0px 10px 8px rgba(0, 0, 0, 0.507);
+}
+.section_conteudo .section_image img:hover{
+    transform: scale(1.1);
+}
+main{
+    margin: auto;
+    margin-top: 20px;
+    width: 85vw;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-size: 1.2rem;
+
+}
+.section_text p{
+    text-align: justify;
+    margin-bottom: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    color: white;
+}
+.section_tabela h2{
+    font-family: "OldNews";
+    font-size: 2rem;
+    margin: 20px;
+    color: white;
+}
+.section_tabela table{
+    margin: auto;
+    color: white;
+}
+table,th,tr,td{
+    border: 1px solid black;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+td,th{
+    width: 300px;
+    height: 10px;
+    padding: 3px;
+    border-radius: 20px;
+}
+footer p{
+    text-align: center;
+    color: white;
+}
