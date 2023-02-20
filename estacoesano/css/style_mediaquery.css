@@ -1,0 +1,88 @@
+@media screen and (max-width: 767px){
+    body{
+        width: 94vw;   
+    }
+    header{
+        margin: auto;
+        width: 80vw;
+    }
+
+    nav{
+        width: 90vw;
+        margin: auto;
+    
+    }
+    nav ul{
+        width: 90vw;
+        margin: auto;
+    }
+ 
+    nav ul a{
+        font-size: .8rem;
+    }
+    nav ul a img{
+        width: 10px;
+        
+    }
+    .section_conteudo{
+        width: 90vw;
+        margin: auto;
+       text-align: center;
+        padding-top: 5px;
+    }
+    .section_conteudo .section_image{
+        width: 90vw;
+        margin: auto;
+    }
+    .section_conteudo .section_image a img{
+        width: 50px;
+        height: 50px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.527);
+    }
+
+    main{
+        width: 85vw;
+        margin: auto;
+        text-align: center;
+    }
+    .section_text{
+        width: 80vw;
+        margin: auto;
+        padding-top: 10px;
+        font-size: 1rem;
+        
+    }
+
+    .section_tabela{
+        width: 80vw;
+        margin: auto;
+
+    }
+    .section_tabela h2{
+        font-size: 1.4rem;
+ 
+    }
+    table{
+        margin: auto;
+        margin-top: 10px;
+        width: 70vw;
+        border-radius: 4px;
+        font-size: .8rem;
+        
+    }
+    th,td{
+        border-radius: 4px;
+        padding: 0;
+
+    }
+    
+    footer{
+        margin: auto;
+        width: 90vw;
+
+    }
+
+    
+}

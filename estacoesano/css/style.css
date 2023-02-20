@@ -7,97 +7,128 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    
 }
 body{
-    background: linear-gradient(to bottom, #F5CD59, #531918 );
+    width: 100vw;
+    background: linear-gradient(to bottom, #F5CD59, #ac3836 );
     background-repeat: no-repeat;
     background-size: cover; 
      
 }
-nav{
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-nav h1{
-    font-family: "OldNews";
-    font-size: 2rem;
-    color:#A43518;
+header{
+    margin: auto;
+    padding-top: 20px;
+    width: 80vw;
+    padding: 5px;
     text-align: center;
-    padding: 20px;
+}
+header h1{
+    font-family: "OldNews";
+    color: #531918;
+    
+}
+nav{
+    width: 100vw;
+    margin: auto;
+    padding-top: 20px;
 }
 nav ul{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
-    list-style: none; 
-    font-size: 1.1rem;
-
+    width: 100vw;
+    text-align: center;
+}
+nav ul a li{
+    color: #531918;
+    
 }
 nav ul a{
-    padding: 12px;
-    box-sizing: border-box;
-    text-align: center; 
+    list-style: none;
+    font-size: 1.5rem;
     text-decoration: none;
-    font-size: 1.3rem;
-    color:#A43518;
+    
 }
 nav ul a img{
     width: 15px;
+    
+}
+.section_conteudo{
+    width: 100vw;
+    padding-top: 20px;
 }
 .section_conteudo .section_image{
     display: flex;
     justify-content: space-around;
     
 }
-.section_conteudo .section_image img{
-    width: 200px;
-    height: 150px;
+.section_conteudo .section_image a img{
+    width: 250px;
+    height: 120px;
+    border-radius: 20px;
     text-align: center;
-    border-radius: 15px;
-    box-shadow:0px 0px 10px 8px rgba(0, 0, 0, 0.507);
+    box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.527);
+    
 }
-.section_conteudo .section_image img:hover{
+.section_conteudo .section_image a img:hover{
+    transition: all .3s ;
     transform: scale(1.1);
 }
 main{
-    margin: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    color: black;
-    font-size: 1.2rem;
-
+    width: 100vw;
 }
-.section_text p{
+.section_text{
+    width: 80vw;
+    margin: auto;
+    padding-top: 20px;
+    
+}
+.section_text p {
     text-align: justify;
-    margin-bottom: 20px;
-    font-family:'Times New Roman', Times, serif;
-    font-size: 1.4rem;
-    color: white;
+    color: #531918;
+}
+.section_tabela{
+    width: 100vw;
+    height: 40vh;
+    margin: auto;
+    padding-top: 20px;
 }
 .section_tabela h2{
+    text-align: center;
     font-family: "OldNews";
-    font-size: 2rem;
-    margin: 20px;
-    color: white;
+    font-size: 1.8rem;
+    color: #531918;
 }
-.section_tabela table{
+table{
     margin: auto;
-    color: white;
+    margin-top: 10px;
+    width: 80%;
+    height: 70%;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    box-shadow: 8px -8px 8px 2px rgba(0, 0, 0, 0.527);
+    
 }
-table,th,tr,td{
-    border: 1px solid black;
-    font-size: 1rem;
-    border-radius: 10px;
+th,td{
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #531918;
 }
-td,th{
-    width: 300px;
-    height: 10px;
-    padding: 3px;
-    border-radius: 20px;
+
+footer{
+    width: 100vw;
+    text-align: center;
 }
 footer p{
     text-align: center;
-    color: white;
+    color: #531918;
+    
 }
+
+
+
+
+
+
