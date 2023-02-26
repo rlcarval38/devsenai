@@ -8,10 +8,12 @@
     padding: 0px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
+    text-decoration: none;
+    list-style: none;
     
 }
-body{
-    width: 100vw;
+body{ 
+    width: 100%;
     background: linear-gradient(to bottom, #F5CD59, #ac3836 );
     background-repeat: no-repeat;
     background-size: cover; 
@@ -30,18 +32,20 @@ header h1{
     
 }
 nav{
-    width: 100vw;
+    width: 96vw;
     margin: auto;
     padding-top: 20px;
 }
 nav ul{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
+    width: 96vw;
     text-align: center;
 }
-nav ul a li{
+nav ul li{
     color: #531918;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
     
 }
 nav ul a{
@@ -50,20 +54,20 @@ nav ul a{
     text-decoration: none;
     
 }
-nav ul a img{
-    width: 15px;
+nav ul li img{
+    width: 12px;
     
 }
-.section_conteudo{
-    width: 100vw;
-    padding-top: 20px;
-}
-.section_conteudo .section_image{
+
+.section_image{
     display: flex;
+    margin: auto;
+    gap: 20px;
     justify-content: space-around;
+    width: 96vw;
     
 }
-.section_conteudo .section_image a img{
+.section_image a img{
     width: 250px;
     height: 120px;
     border-radius: 20px;
@@ -71,12 +75,13 @@ nav ul a img{
     box-shadow: 0px 0px 15px 15px rgba(0, 0, 0, 0.527);
     
 }
-.section_conteudo .section_image a img:hover{
+.section_image a img:hover{
     transition: all .3s ;
     transform: scale(1.1);
 }
 main{
-    width: 100vw;
+    margin: auto;
+    width: 96vw;
 }
 .section_text{
     width: 80vw;
@@ -89,7 +94,7 @@ main{
     color: #531918;
 }
 .section_tabela{
-    width: 100vw;
+    width: 96vw;
     height: 40vh;
     margin: auto;
     padding-top: 20px;
@@ -118,7 +123,8 @@ th,td{
 }
 
 footer{
-    width: 100vw;
+    width: 96vw;
+    margin: auto;
     text-align: center;
 }
 footer p{

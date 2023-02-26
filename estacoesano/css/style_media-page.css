@@ -1,9 +1,9 @@
 @media screen and (max-width: 767px){
    
-    main{
+    main{  
         margin: auto;
         width: 80vw;
-        height: 90vh;
+        height: 100vh;
     }
     main h2{
         font-size: 2rem;
